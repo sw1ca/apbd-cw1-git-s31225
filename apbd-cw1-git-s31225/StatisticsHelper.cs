@@ -32,4 +32,10 @@ public class StatisticsHelper
         }
         return max;
     }
+
+    public static double CalculateMin(int[] numbers)
+    {
+        
+    }
+    
 }
