@@ -2,5 +2,13 @@
 
 public class StatisticsHelper
 {
-    
+    public static double CalculateAverage(int[] nums)
+    {
+        int sum = 0;
+        foreach (int num in nums)
+        {
+            sum += num;
+        }
+        return (double) sum / nums.Length;
+    }
 }
