@@ -4,6 +4,10 @@ public class StatisticsHelper
 {
     public static double CalculateAverage(int[] nums)
     {
+        if (nums == null || nums.Length == 0)
+        {
+            throw new ArgumentException("Array cannot be null or empty!");
+        }
         int sum = 0;
         foreach (int num in nums)
         {
