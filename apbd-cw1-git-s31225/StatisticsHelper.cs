@@ -3,6 +3,7 @@
 public class StatisticsHelper
 {
     public static double CalculateAverage(int[] nums)
+    // I've recently in first exercise unconsciously implemented this method
     {
         if (nums == null || nums.Length == 0)
         {
